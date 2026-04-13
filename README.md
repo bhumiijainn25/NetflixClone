@@ -1,30 +1,33 @@
-# 🎬 Movie Player Website
+# 🎬 Netflix Front-End Clone
 
-A Netflix-inspired movie streaming UI built with HTML, CSS, and JavaScript. This project simulates a simple video player that plays YouTube trailers based on user selection. The design includes sections like "Continue Watching", "Latest on Netflix", and "Popular on Netflix".
+A front-end clone of the Netflix landing page built using **HTML, CSS, and JavaScript**.  
+This project replicates the look and feel of Netflix’s UI to showcase front-end development and styling skills.
 
-## 🌟 Features
+---
 
-- ✅ Movie thumbnails clickable to play trailers
-- ✅ Embedded YouTube player with autoplay support
-- ✅ Categorized movie sections
-- ✅ Dynamic content based on query parameters
-- ✅ Responsive layout for better user experience
+## 🚀 Live Demo
+
+🔗 https://bhumiijainn25.github.io/NetflixClone/
+
+---
+
+## 📌 Features
+
+- Netflix-style landing page UI
+- Hero section with background banner
+- Navigation bar with logo and sign-in button
+- Movie/TV show rows layout
+- Hover effects and UI interactions
+- Responsive design (basic)
+
+---
 
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
+- **HTML5** – Page structure  
+- **CSS3** – Styling, layout, and responsiveness  
+- **JavaScript** – Interactivity  
 
-## 🧠 How It Works
+---
 
-1. User lands on the homepage.
-2. Clicks a movie from a section.
-3. Gets redirected to `player.html?section=sectionName&id=movieIndex`.
-4. YouTube video is embedded and auto-plays.
-
-```js
-// Sample player logic
-const urlParams = new URLSearchParams(window.location.search);
-const section = urlParams.get('section');
-const movieId = parseInt(urlParams.get('id'));
+## 📁 Project Structure
